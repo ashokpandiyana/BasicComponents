@@ -1,0 +1,51 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.container {
+  margin: 20px auto;
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  margin: 10px 0px;
+  height: 200px;
+  width: 400px;
+  border: 2px solid aliceblue;
+  background-color: burlywood;
+  color: #fff;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: rgba(2, 200, 250, 0.377);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(2, 200, 250, 0.377);
+}
