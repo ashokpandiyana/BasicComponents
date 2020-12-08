@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e8ecee;
+}
+.card {
+  height: 400px;
+  width: 300px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  position: absolute;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card img {
+  margin: 1px;
+  height: 60%;
+  width: 100%;
+  object-fit: contain;
+}

@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 350px;
+}
+.progress {
+  display: flex;
+  flex-direction: row;
+}
